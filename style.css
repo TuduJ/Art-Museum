@@ -1,0 +1,12 @@
+body{
+    font-family: Comfortaa;
+    background-color: lightgoldenrodyellow;
+}
+#brand a{
+    font-size: 1.5rem;
+    color: midnightblue;
+}
+#brand p{
+    font-size: 1rem;
+    line-height: 1rem;
+}
