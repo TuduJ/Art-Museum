@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: comfortaa;
+    background: url(https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: darkcyan;
+}
+#content{
+    /* text-align: center; */
+    padding-top: 15%;
+    font-size: 3.5rem;
+}
+#content h1{
+    font-family: nunito;
+    font-size: 4rem;
+    font-weight: 700;
+}
+hr{
+    width: 400px;
+    border-top: 1px solid #F8F8F8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 1400px){
+    #content h1{
+        font-weight: 100;
+        font-size: 3rem;               /* CSS for Resposive Text */
+    }
+    #content h3{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 800px){
+    #content h1{
+        font-weight: 100;
+        font-size: 2rem;                /* CSS for Resposive Text */
+    }#content h3{
+        font-size: 1rem;
+    }
+}
